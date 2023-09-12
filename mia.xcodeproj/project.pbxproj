@@ -14,6 +14,7 @@
 		9246A0802A950E09009D995E /* miaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246A07F2A950E09009D995E /* miaTests.swift */; };
 		9246A08A2A950E09009D995E /* miaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246A0892A950E09009D995E /* miaUITests.swift */; };
 		9246A08C2A950E09009D995E /* miaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246A08B2A950E09009D995E /* miaUITestsLaunchTests.swift */; };
+		D95585802AAF3D4500B67A33 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D955857F2AAF3D4500B67A33 /* ScrumsView.swift */; };
 		D9CBE7C92AAEB9180090F5F6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBE7C82AAEB9180090F5F6 /* Theme.swift */; };
 		D9CBE7CB2AAEBC890090F5F6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBE7CA2AAEBC890090F5F6 /* DailyScrum.swift */; };
 		D9CBE7CD2AAEC2720090F5F6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBE7CC2AAEC2720090F5F6 /* CardView.swift */; };
@@ -49,6 +50,7 @@
 		9246A0852A950E09009D995E /* miaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9246A0892A950E09009D995E /* miaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miaUITests.swift; sourceTree = "<group>"; };
 		9246A08B2A950E09009D995E /* miaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D955857F2AAF3D4500B67A33 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		D9CBE7C82AAEB9180090F5F6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		D9CBE7CA2AAEBC890090F5F6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		D9CBE7CC2AAEC2720090F5F6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -103,9 +105,9 @@
 		9246A06C2A950E07009D995E /* mia */ = {
 			isa = PBXGroup;
 			children = (
+				D95585812AAF3D4B00B67A33 /* Views */,
 				D9CBE7C72AAEB8F40090F5F6 /* Models */,
 				9246A06D2A950E07009D995E /* miaApp.swift */,
-				9246A06F2A950E07009D995E /* ContentView.swift */,
 				9246A0712A950E08009D995E /* Assets.xcassets */,
 				9246A0732A950E08009D995E /* mia.entitlements */,
 				9246A0742A950E08009D995E /* Preview Content */,
@@ -138,12 +140,21 @@
 			path = miaUITests;
 			sourceTree = "<group>";
 		};
+		D95585812AAF3D4B00B67A33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D955857F2AAF3D4500B67A33 /* ScrumsView.swift */,
+				D9CBE7CC2AAEC2720090F5F6 /* CardView.swift */,
+				9246A06F2A950E07009D995E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D9CBE7C72AAEB8F40090F5F6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				D9CBE7C82AAEB9180090F5F6 /* Theme.swift */,
 				D9CBE7CA2AAEBC890090F5F6 /* DailyScrum.swift */,
-				D9CBE7CC2AAEC2720090F5F6 /* CardView.swift */,
 				D9CBE7CE2AAEE7880090F5F6 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
@@ -282,6 +293,7 @@
 				D9CBE7CB2AAEBC890090F5F6 /* DailyScrum.swift in Sources */,
 				D9CBE7CF2AAEE7880090F5F6 /* TrailingIconLabelStyle.swift in Sources */,
 				D9CBE7C92AAEB9180090F5F6 /* Theme.swift in Sources */,
+				D95585802AAF3D4500B67A33 /* ScrumsView.swift in Sources */,
 				9246A0702A950E07009D995E /* ContentView.swift in Sources */,
 				9246A06E2A950E07009D995E /* miaApp.swift in Sources */,
 				D9CBE7CD2AAEC2720090F5F6 /* CardView.swift in Sources */,
